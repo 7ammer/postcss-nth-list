@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "James Isbell"
+  	},
+  "name": "postcss-nth",
+  "dependencies": {
+    "postcss": "^5.0.14"
+  },
+  "description": "A postcss module for picking items from a 'var list'",
+  "devDependencies": {
+    "eslint": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "installable": true,
+  "keywords": [
+    "css",
+    "custom-properties",
+    "postcss",
+    "postcss-plugin",
+    "variables",
+    "vars",
+    "array",
+    "list",
+    "nth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postcss/postcss-custom-properties.git"
+  },
+  "homepage": "https://github.com/7immy/postcss-nth/#readme",
+  "bugs": {
+    "url": "https://github.com/7immy/postcss-nth/issues"
+  },
+  "scripts": {
+    "test": "eslint . && tape test"
+  },
+  "version": "1.0.0"
+}
