@@ -18,7 +18,7 @@ postcss([
 ```
 See [PostCSS] docs for examples for your environment.
 
-## input
+## Input example
 ```css
 :root{
     --aVar: lime;
@@ -39,7 +39,7 @@ body{
 
 ```
 
-## output
+## Output example
 ```css
 body{
     background: red;
