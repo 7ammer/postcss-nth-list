@@ -1,4 +1,4 @@
-# postcss-nth
+# postcss-nth-list
 A postcss module for picking items from a var list
 
 
