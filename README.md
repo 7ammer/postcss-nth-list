@@ -9,7 +9,7 @@ A postcss module for picking items from a 'var list'.
   npm install postcss-nth-list --save
 ```
 ## Usage
-Requires [postcss-custom-properties].
+Requires [postcss-custom-properties], [postcss-css-variables] or similar to be required before this module.
 ```js
 postcss([
     require('postcss-custom-properties'),
