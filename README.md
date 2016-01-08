@@ -1,9 +1,16 @@
-# postcss-nth-list
-A postcss module for picking items from a var list
+postcss-nth-list
+=========
 
+A postcss module for picking items from a 'var list'.
+
+## Installation
+
+```shell
+  npm install postcss-nth-list --save
+```
 
 ## input
-```
+```css
 :root{
     --aVar: lime;
     --myList: "a-string" var(--aVar) 100,234,190 red;
@@ -24,7 +31,7 @@ body{
 ```
 
 ## output
-```
+```css
 body{
     background: red;
     color: rgb( 100,234,190 );
