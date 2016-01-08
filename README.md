@@ -1,7 +1,7 @@
 postcss-nth-list
 =========
 
-A postcss module for picking items from a 'var list'.
+A postcss module for picking items from a 'varible list'.
 
 ## Installation
 
