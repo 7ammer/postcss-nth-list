@@ -2,12 +2,12 @@
   "author": {
     "name": "James Isbell"
   	},
-    "version": "1.0.1",
+    "version": "1.0.2",
   "name": "postcss-nth-list",
   "dependencies": {
     "postcss": "^5.0.14"
   },
-  "description": "A postcss module for picking items from a 'var list'",
+  "description": "A work in progress postcss module for picking items from a 'varible list'.",
   "devDependencies": {
     "eslint": "^1.0.0",
     "tape": "^4.0.0"
