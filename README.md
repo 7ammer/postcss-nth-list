@@ -8,6 +8,15 @@ A postcss module for picking items from a 'var list'.
 ```shell
   npm install postcss-nth-list --save
 ```
+## Usage
+Requires [postcss-custom-properties].
+```js
+postcss([
+    require('postcss-custom-properties'),
+    require('postcss-nth-list')
+])
+```
+See [PostCSS] docs for examples for your environment.
 
 ## input
 ```css
@@ -39,3 +48,5 @@ body{
     content: "a-string";
 }
 ```
+[postcss-custom-properties]: https://github.com/postcss/postcss-custom-properties
+[PostCSS]:                   https://github.com/postcss/postcss
